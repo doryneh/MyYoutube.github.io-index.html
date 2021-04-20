@@ -1,0 +1,71 @@
+.card:hover{
+    transform: translateY(0%);
+}
+.watch-page .watch-icons{
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+}
+.watch-icons .far{
+    color: #008cff!important;
+}
+.watch-icons .far:hover
+{
+    cursor: pointer;
+}
+
+.watch-page #more{
+    display: none;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.card-inner{
+    display: none;
+}
+.reply{
+    background-color: #008cff;
+    border-color: #008cff;
+}
+.reply:hover{
+    background-color: #0079db;
+    border-color: #0079db;
+    color: white!important;
+}
+.btn-danger{
+    background-color: #FF7300!important;
+    border-color: #FF7300!important;
+}
+.btn-danger:hover{
+    background-color: #d86100!important;
+    color: white!important;
+}
+@media (min-width:992px){
+    time{
+        font-size: 13px;
+    }
+    .fa-play{
+        font-size: 20px!important;
+    }
+}
+@media(max-width:1064px){
+    #myBtn{
+        margin-bottom: 60px!important;
+    }
+}
+@media(max-width:767px){
+    
+    .rep{
+        display: inline-block;
+    }
+    .bod{
+        max-width: 70%;
+        margin-right: 20px;
+    }
+
+}
+@media(max-width:570px){
+    .reply-time{
+        font-size: 10px !important;
+    }
+}

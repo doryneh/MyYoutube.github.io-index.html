@@ -1,0 +1,36 @@
+
+.channel-page .video-section .card:hover{
+    transform: translateY(0%);
+}
+.card .card-icon .fa-play{
+    position: absolute;
+    top: 26%;
+    right: 42%;
+}
+time{
+    bottom: 70px;
+    left: 10px;
+    font-size: 13px;
+}
+.channel-page .social-media{
+    bottom:10px;
+    left:20px;
+}
+.channel-page .follow{
+    bottom:10px; 
+    right:20px;
+}
+@media(max-width:593px){
+    .navbar-dark .navbar-nav .nav-link{
+        font-size: 13px;
+        padding-right: 4px;
+        padding-left: 4px;
+        
+}
+@media(min-width:594px){
+    .navbar-dark .navbar-nav .nav-link{
+        padding-right: 4px;
+        padding-left: 4px;
+    }
+}
+}
